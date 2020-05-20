@@ -1,0 +1,44 @@
+
+$theme-primary: #3aafa9;
+$theme-light: #def2f1;
+$theme-dark: #2b7a78;
+$theme-darker: #17252a;
+$theme-white: #feffff;
+
+@font-face{
+    font-family: 'Hind';
+    src: url('/fonts/Hind/Hind-Regular.ttf');
+}
+
+#sidebar{ 
+    background-color: $theme-darker;
+    color: $theme-primary;
+    height: max-content;
+    margin-bottom: -5000px; /* any large number will do */
+    padding-bottom: 5000px; 
+} 
+
+.linkList {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    a {
+        margin: 20% 0 0 5%;
+        float:left; 
+        clear: left;
+        color: $theme-white;
+        border-bottom: 5px solid $theme-primary;
+        font-size: 24px;
+        font-family: 'Hind';
+    }
+    a:hover{
+        text-decoration: none;
+        color: $theme-light;
+    }
+}
+
+#mainContent {
+    background-color: $theme-primary;
+    color: $theme-light;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
