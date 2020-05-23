@@ -6,8 +6,8 @@ $theme-darker: #17252a;
 $theme-white: #feffff;
 
 @font-face{
-    font-family: 'Hind';
-    src: url('/fonts/Hind/Hind-Regular.ttf');
+    font-family: 'Roboto Slab';
+    src: url('/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf');
 }
 
 .bg-themeDark{
@@ -22,10 +22,15 @@ $theme-white: #feffff;
     margin-bottom: -5000px; /* any large number will do */
     padding-bottom: 5000px; 
 } 
+.logo-lg {
+    text-align: center;
+    margin: 10%;
+}
 
 .linkList {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 20%;
+    margin-left: 20%;
     a {
         margin: 20% 0 0 5%;
         float:left; 
@@ -33,7 +38,7 @@ $theme-white: #feffff;
         color: $theme-white;
         border-bottom: 5px solid $theme-primary;
         font-size: 24px;
-        font-family: 'Hind';
+        font-family: 'Roboto Slab';
     }
     a:hover{
         text-decoration: none;
@@ -46,4 +51,18 @@ $theme-white: #feffff;
     color: $theme-light;
 }
 
-@import "node_modules/bootstrap/scss/bootstrap";
+a.nav-link  {
+    color: $theme-light !important;
+    font-family: 'Roboto Slab';
+    a.nav-link :hover{
+        text-decoration: none;
+        color: $theme-light;
+    }
+}
+
+.themeLinks {
+    color: $theme-primary !important;
+    border:none!important;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";

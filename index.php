@@ -7,13 +7,17 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css">
-
+    <!-- <script src="https://kit.fontawesome.com/bb027a9024.js" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title> Ashish Chawla | Full Stack Web Developer </title>
   </head>
   <body>
     <?php include('./sidebar.php'); ?>
     <div class="row">
         <div class="col-md-2 col-lg-2 d-none d-md-block" id="sidebar">
+            <div class="logo-lg">
+                <img src="./images/logo_white.png" width="100" height="100">
+            </div>
             <div class="linkList">
                 <a href="#">Home</a>
                 <a href="#">About</a>
@@ -23,7 +27,7 @@
             </div>
         </div>  
         <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10" id="mainContent">
-            
+            <h3>Ashish Chawla</h3>
         </div>
     </div>
 
