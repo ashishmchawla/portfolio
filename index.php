@@ -40,17 +40,41 @@
         </div>  
         <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10" id="mainContent">
           <section id="home">
-            <h2>
+            <h1>
               <small>Hello, </small>
               I'm Ashish Chawla 
-              <br><small> I craft websites and web applications...</small>
-            </h2>
+              <br><small> I craft websites and applications...</small>
+            </h1>
 
             <p id="home_description"> I am a Full Stack Web Developer from Mumbai. I love to create web-based solutions with anything between a small landing page to a feature-rich complete application. </p>
             <img id="hero_image" src="images/developer_custom.png" class="img-responsive">
             <br><br>
           </section>
-        </div>
+          <section id="about">
+              <h3> About </h3> 
+              <p>
+                Being a full-time techie is something that goes with my persona... <br>
+                I love to explore technology, trends and also love to code. <br>
+                There are too many technologies, systems, and rules that operate this world. <br>
+                The internet is the most prominent among them and there’s where my playground is.<br>
+                The web world is fast growing and I am keeping up with it toe-to-toe. <br>
+                I am also a tea addict ☕️ I have about 4-5 cups of it throughout the day.
+              </p>
+              <br>
+              <div class="row">
+
+                <div class="col-md-3">
+                    <img src="images/plan_themed.png" class="img-fluid aboutImg">
+                    <h4> Plan </h4>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/responsive_themed.png" class="img-fluid aboutImg">
+                    <h4> Design </h4>
+                </div>
+
+              </div>
+          </section>
+        </div>  
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

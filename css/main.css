@@ -49,6 +49,7 @@ html, body {
   color: #3aafa9;
   background-color: #def2f1;
   font-family: "Roboto Slab";
+  padding-left: 0px;
 }
 
 #home {
@@ -58,12 +59,30 @@ html, body {
 }
 
 #home_description {
-  padding: 5% 10% 5% 10%;
+  padding: 2% 10% 5% 10%;
+  font-size: 1.5rem;
 }
 
 #hero_image {
   max-height: 300px;
   max-width: 300px;
+}
+
+#aboutLeft {
+  padding: 5%;
+}
+
+#about {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #2b7a78;
+  color: #def2f1;
+  font-size: 1.5rem;
+}
+#about p {
+  padding: 2% 5% 0 5%;
+  font-size: 1.25rem;
 }
 
 a.nav-link {
