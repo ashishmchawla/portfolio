@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Roboto Slab";
-  src: url("/fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+  src: url("/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf");
 }
 .bg-themeDark {
   background-color: #17252a;
