@@ -5,6 +5,10 @@ $theme-dark: #2b7a78;
 $theme-darker: #17252a;
 $theme-white: #feffff;
 
+html, body {
+    overflow-x: hidden;
+}
+
 @font-face{
     font-family: 'Roboto Slab';
     src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
@@ -47,8 +51,24 @@ $theme-white: #feffff;
 }
 
 #mainContent {
-    background-color: $theme-primary;
-    color: $theme-light;
+    color: $theme-primary;
+    background-color: $theme-light;
+    font-family: 'Roboto Slab';
+}
+
+#home {
+    padding-top: 15%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+#home_description {
+    padding: 5% 10% 5% 10%;
+}
+
+#hero_image {
+    max-height: 300px;
+    max-width: 300px;
 }
 
 a.nav-link  {

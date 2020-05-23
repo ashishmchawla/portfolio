@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-themeDark d-sm-block d-xs-block d-md-none">
-  <a class="navbar-brand" href="#"><img src="./images/logo_white.png" height="50" width="50"></a>
+  <a class="navbar-brand" href="#"><img src="./images/logo_colored.png" height="50" width="50"></a>
   <a class="navbar-toggler pull-right themeLinks" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="material-icons">menu</i>
  </a>

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+html, body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Roboto Slab";
   src: url("/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf");
@@ -42,8 +46,24 @@
 }
 
 #mainContent {
-  background-color: #3aafa9;
-  color: #def2f1;
+  color: #3aafa9;
+  background-color: #def2f1;
+  font-family: "Roboto Slab";
+}
+
+#home {
+  padding-top: 15%;
+  padding-left: 5%;
+  text-align: center;
+}
+
+#home_description {
+  padding: 5% 10% 5% 10%;
+}
+
+#hero_image {
+  max-height: 300px;
+  max-width: 300px;
 }
 
 a.nav-link {
