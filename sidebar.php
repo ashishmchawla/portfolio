@@ -13,7 +13,7 @@
         <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Recent Projects </a>
+        <a class="nav-link" href="#portfolio">Projects </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Blog</a>

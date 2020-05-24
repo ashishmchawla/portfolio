@@ -6,7 +6,8 @@ $theme-darker: #17252a;
 $theme-white: #feffff;
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden;  
+    transition: all 0.4s ease 0s;
 }
 
 @font-face{

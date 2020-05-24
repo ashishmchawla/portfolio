@@ -32,7 +32,7 @@
         <div class="linkList">
             <a href="#home">Home</a>
             <a href="#about">About</a>
-            <a href="#portfolio">Recent Projects</a>
+            <a href="#portfolio">Projects</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
         </div>
@@ -131,7 +131,7 @@
     </div>  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
