@@ -1,3 +1,4 @@
+<h3 class="sectionHeadingDark">Journey so far...</h3>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
