@@ -186,5 +186,11 @@ a.nav-link  {
         text-decoration: none;
     }
 }
+@media screen and (max-width: 768px)  {
+    #mainContent, #about, #portfolio {
+        padding-top: 30%;
+        z-index: 2;
+    }
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
