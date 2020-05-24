@@ -4,7 +4,7 @@ html, body {
 }
 
 @font-face {
-  font-family: "Roboto Slab";
+  font-family: "CustomFonts";
   src: url("/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf");
 }
 .bg-themeDark {
@@ -15,10 +15,12 @@ html, body {
 #sidebar {
   background-color: #17252a;
   color: #3aafa9;
-  height: max-content;
-  margin-bottom: -5000px;
-  /* any large number will do */
-  padding-bottom: 5000px;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .logo-lg {
@@ -38,7 +40,7 @@ html, body {
   color: #feffff;
   border-bottom: 5px solid #3aafa9;
   font-size: 24px;
-  font-family: "Roboto Slab";
+  font-family: "CustomFonts";
 }
 .linkList a:hover {
   text-decoration: none;
@@ -48,10 +50,15 @@ html, body {
 #mainContent {
   color: #3aafa9;
   background-color: #def2f1;
-  font-family: "Roboto Slab";
+  font-family: "CustomFonts";
   padding-left: 0px;
 }
 
+@media (min-width: 768px) {
+  #mainContent {
+    margin-left: 250px;
+  }
+}
 #home {
   padding-top: 15%;
   padding-left: 5%;
@@ -84,10 +91,14 @@ html, body {
   padding: 2% 5% 0 5%;
   font-size: 1.25rem;
 }
+#about .highlight {
+  border-bottom: 4px solid #17252a;
+  font-style: italic;
+}
 
 a.nav-link {
   color: #def2f1 !important;
-  font-family: "Roboto Slab";
+  font-family: "CustomFonts";
 }
 a.nav-link a.nav-link :hover {
   text-decoration: none;
@@ -97,6 +108,15 @@ a.nav-link a.nav-link :hover {
 .themeLinks {
   color: #3aafa9 !important;
   border: none !important;
+}
+
+.customCard {
+  padding: 2%;
+  margin: 4%;
+}
+.customCard img {
+  height: 128px;
+  margin-bottom: 2%;
 }
 
 /*!

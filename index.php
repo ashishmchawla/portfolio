@@ -25,57 +25,75 @@
   </head>
   <body>
     <?php include('./sidebar.php'); ?>
-    <div class="row">
-        <div class="col-md-2 col-lg-2 d-none d-md-block" id="sidebar">
-            <div class="logo-lg">
-                <img src="./images/logo_colored.png" width="100" height="100">
-            </div>
-            <div class="linkList">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Portfolio</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>  
-        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10" id="mainContent">
-          <section id="home">
-            <h1>
-              <small>Hello, </small>
-              I'm Ashish Chawla 
-              <br><small> I craft websites and applications...</small>
-            </h1>
+    <div class="d-none d-md-block" id="sidebar">
+        <div class="logo-lg">
+            <img src="./images/logo_colored.png" width="100" height="100">
+        </div>
+        <div class="linkList">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>  
+    <div id="mainContent">
+      <section id="home">
+        <h1>
+          <small>Hello, </small>
+          I'm Ashish Chawla 
+          <br><small> I craft websites and applications...</small>
+        </h1>
 
-            <p id="home_description"> I am a Full Stack Web Developer from Mumbai. I love to create web-based solutions with anything between a small landing page to a feature-rich complete application. </p>
-            <img id="hero_image" src="images/developer_custom.png" class="img-responsive">
-            <br><br>
-          </section>
-          <section id="about">
-              <h3> About </h3> 
-              <p>
-                Being a full-time techie is something that goes with my persona... <br>
-                I love to explore technology, trends and also love to code. <br>
-                There are too many technologies, systems, and rules that operate this world. <br>
-                The internet is the most prominent among them and there’s where my playground is.<br>
-                The web world is fast growing and I am keeping up with it toe-to-toe. <br>
-                I am also a tea addict ☕️ I have about 4-5 cups of it throughout the day.
-              </p>
-              <br>
-              <div class="row">
-
-                <div class="col-md-3">
-                    <img src="images/plan_themed.png" class="img-fluid aboutImg">
-                    <h4> Plan </h4>
-                </div>
-                <div class="col-md-3">
-                    <img src="images/responsive_themed.png" class="img-fluid aboutImg">
-                    <h4> Design </h4>
-                </div>
-
+        <p id="home_description"> I am a Full Stack Web Developer from Mumbai. I love to create web-based solutions with anything between a small landing page to a feature-rich complete application. </p>
+        <img id="hero_image" src="images/developer_custom.png" class="img-responsive">
+        <br><br>
+      </section>
+      <section id="about">
+          <h3> About Me</h3> 
+          <p>
+            Being a <span class="highlight">techie</span> is something that goes with my persona... <br>
+            I <span class="highlight">love to code</span>, explore technology, their trends and latest innovations.<br>
+            There are too many technologies, systems, and rules that operate this world <br>
+            of internet and that's <span class="highlight">  my playground</span>. Being connected <span class="highlight">online 24/7</span>,<br>
+            part time <span class="highlight">blogger</span>, full-time <span class="highlight">programmer</span>, that's my story on daily basis.<br>
+            I am also a <span class="highlight">tea addict</span> ☕️ about 4-5 cups of it keeps me going throughout the day.
+          </p>
+          <br>
+          <p>
+            Each and every developer has their own style of creating amazing content, so do I.<br>
+            <big> Here's how I do it... </big>
+          </p>
+          <br>
+          <div class="row">
+            <div class="col-md-3">
+              <div class="customCard">
+                <img src="images/plan.png" class="img-fluid">
+                <h4> Strategizing </h4> 
               </div>
-          </section>
-        </div>  
-    </div>
+            </div>
+            <div class="col-md-3">
+              <div class="customCard">
+                <img src="images/prototype.png" class="img-fluid">
+                <h4> Prototyping </h4> 
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="customCard">
+                <img src="images/design.png" class="img-fluid">
+                <h4> Designing </h4> 
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="customCard">
+                <img src="images/code.png" class="img-fluid">
+                <h4> Coding </h4> 
+              </div>
+            </div>
+          </div>
+      
+      </section>
+    </div>  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
