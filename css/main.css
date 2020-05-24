@@ -91,11 +91,6 @@ html, body {
   padding: 2% 5% 0 5%;
   font-size: 1.25rem;
 }
-#about .highlight {
-  border-bottom: 4px solid #17252a;
-  font-style: italic;
-}
-
 a.nav-link {
   color: #def2f1 !important;
   font-family: "CustomFonts";
@@ -117,6 +112,65 @@ a.nav-link a.nav-link :hover {
 .customCard img {
   height: 128px;
   margin-bottom: 2%;
+}
+
+#portfolio {
+  background-color: #def2f1;
+  color: #3aafa9;
+  padding: 5% 0 5% 0;
+  text-align: center;
+}
+
+.cardContainer {
+  position: relative;
+  margin: 0 4% 0 4%;
+  border-radius: 20px;
+}
+
+.cardImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  padding: 5% 0 5% 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #3aafa9;
+  border-radius: 20px;
+}
+
+.cardContainer:hover .overlay {
+  opacity: 0.9;
+}
+
+.cardText {
+  color: white;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.cardText a {
+  color: #def2f1;
+  display: inline-flex;
+}
+.cardText a:hover {
+  color: #17252a;
+  text-decoration: none;
 }
 
 /*!
