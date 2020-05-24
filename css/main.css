@@ -180,6 +180,71 @@ a.nav-link a.nav-link :hover {
     z-index: 2;
   }
 }
+#journey {
+  padding: 5% 0 5% 0;
+  background-color: #2b7a78;
+  color: #def2f1;
+}
+#journey h3 {
+  text-align: center;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: " ";
+  background: #def2f1;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+  text-align: left;
+}
+ul.timeline > li a {
+  color: #def2f1;
+  display: inline-flex;
+}
+ul.timeline > li a:hover {
+  color: #17252a;
+  text-decoration: none;
+}
+ul.timeline > li .position {
+  font-style: italic;
+  color: #17252a;
+  width: 100%;
+}
+
+ul.timeline > li:before {
+  content: " ";
+  background: #def2f1;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #def2f1;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+.sectionHeadingDark {
+  padding: 2%;
+}
+
+.sectionHeadingLight {
+  padding: 2%;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

@@ -16,10 +16,16 @@
         <a class="nav-link" href="#portfolio">Projects </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#journey">Journey</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#tech">Tech Stack</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#blog">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
       </li>
      
     </ul>

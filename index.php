@@ -16,10 +16,24 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Ashish Chawla | Full Stack Web Developer" />
     <meta property="og:description" content="" />
-    <!-- <meta property="og:image" content="http://www.mihirrajani.com/assets/img/favicon.jpg" /> -->
-    <!-- <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon"> -->
-    <!-- <link rel="icon" href="assets/img/favicon.jpg" type="image/x-icon"> -->
-    <meta pname="theme-color" content="#3aafa9">
+    <meta property="og:image" content="favicon/apple-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#3aafa9">
+    <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#3aafa9">
 
     <title> Ashish Chawla | Full Stack Web Developer </title>
   </head>
@@ -33,8 +47,10 @@
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#portfolio">Projects</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="#journey">Journey</a>
+            <a href="#tech">Tech Stack</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
         </div>
     </div>  
     <div id="mainContent">
@@ -50,7 +66,7 @@
         <br><br>
       </section>
       <section id="about">
-          <h3> About Me</h3> 
+          <h3 class="sectionHeadingDark"> About Me</h3> 
           <p>
             Being a <span class="highlight">techie</span> is something that goes with my persona... <br>
             I <span class="highlight">love to code</span>, explore technology, their trends and latest innovations.<br>
@@ -94,7 +110,7 @@
           <br>
       </section>
       <section id="portfolio">
-        <h3 class="title"> Recent Projects </h3>
+        <h3 class="sectionHeadingLight"> Recent Projects </h3>
         <br>
         <div class="row">
 
@@ -127,7 +143,10 @@
 
         </div>
       </section>
-
+      <section id="journey">
+        <h3 class="sectionHeadingDark">Journey so far...</h3>
+        <?php include('experience.php'); ?>
+      </section>
     </div>  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
