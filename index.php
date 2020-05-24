@@ -30,9 +30,9 @@
             <img src="./images/logo_colored.png" width="100" height="100">
         </div>
         <div class="linkList">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Recent Projects</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
         </div>
@@ -94,7 +94,7 @@
           <br>
       </section>
       <section id="portfolio">
-        <h3 class="title"> Portfolio </h3>
+        <h3 class="title"> Recent Projects </h3>
         <br>
         <div class="row">
 
