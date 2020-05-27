@@ -8,6 +8,10 @@ html, body {
   font-family: "CustomFonts";
   src: url("/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf");
 }
+@font-face {
+  font-family: "SecondaryFonts";
+  src: url("/fonts//Nunito/Nunito-Regular.ttf");
+}
 .bg-themeDark {
   background-color: #17252a;
   color: #3aafa9;
@@ -35,7 +39,7 @@ html, body {
   margin-left: 20%;
 }
 .linkList a {
-  margin: 20% 0 0 5%;
+  margin: 10% 0 0 5%;
   float: left;
   clear: left;
   color: #feffff;
@@ -69,6 +73,7 @@ html, body {
 #home_description {
   padding: 2% 10% 5% 10%;
   font-size: 1.5rem;
+  font-family: "SecondaryFonts";
 }
 
 #hero_image {
@@ -91,6 +96,7 @@ html, body {
 #about p {
   padding: 2% 5% 0 5%;
   font-size: 1.25rem;
+  font-family: "SecondaryFonts";
 }
 a.nav-link {
   color: #def2f1 !important;
@@ -146,8 +152,11 @@ a.nav-link a.nav-link :hover {
   width: 100%;
   opacity: 0;
   transition: 1s ease;
-  background-color: #3aafa9;
+  background-color: #2b7a78;
   border-radius: 20px;
+}
+.overlay h4 {
+  font-family: "CustomFonts";
 }
 
 .cardContainer:hover .overlay {
@@ -155,7 +164,7 @@ a.nav-link a.nav-link :hover {
 }
 
 .cardText {
-  color: white;
+  color: #def2f1;
   width: 90%;
   position: absolute;
   top: 50%;
@@ -164,6 +173,7 @@ a.nav-link a.nav-link :hover {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  font-family: "SecondaryFonts";
 }
 .cardText a {
   color: #def2f1;
@@ -188,6 +198,9 @@ a.nav-link a.nav-link :hover {
 #journey h3 {
   text-align: center;
 }
+#journey p.description {
+  padding: 2% 4% 2% 4%;
+}
 
 ul.timeline {
   list-style-type: none;
@@ -209,6 +222,10 @@ ul.timeline > li {
   margin: 20px 0;
   padding-left: 20px;
   text-align: left;
+  font-family: "SecondaryFonts";
+}
+ul.timeline > li h4 {
+  font-weight: 800;
 }
 ul.timeline > li a {
   color: #def2f1;
@@ -222,6 +239,9 @@ ul.timeline > li .position {
   font-style: italic;
   color: #17252a;
   width: 100%;
+}
+ul.timeline > li p {
+  font-size: 0.9rem;
 }
 
 ul.timeline > li:before {

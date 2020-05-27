@@ -15,6 +15,11 @@ html, body {
     src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'SecondaryFonts';
+    src: url('/fonts//Nunito/Nunito-Regular.ttf');
+}
+
 .bg-themeDark{
     background-color: $theme-darker;
     color: $theme-primary;
@@ -40,7 +45,7 @@ html, body {
     margin-bottom: 20%;
     margin-left: 20%;
     a {
-        margin: 20% 0 0 5%;
+        margin: 10% 0 0 5%;
         float:left; 
         clear: left;
         color: $theme-white;
@@ -76,6 +81,7 @@ html, body {
 #home_description {
     padding: 2% 10% 5% 10%;
     font-size: 1.5rem;
+    font-family: 'SecondaryFonts';
 }
 
 #hero_image {
@@ -97,6 +103,7 @@ html, body {
     p {
         padding: 2% 5% 0 5%;
         font-size: 1.25rem;
+        font-family: 'SecondaryFonts';
     }
     .highlight {
         // border-bottom: 4px solid $theme-darker;
@@ -159,8 +166,11 @@ a.nav-link  {
     width: 100%;
     opacity: 0;
     transition: 1s ease;
-    background-color: $theme-primary;
+    background-color: $theme-dark;
     border-radius: 20px;
+    h4 {
+        font-family: 'CustomFonts';
+    }
 }
   
 .cardContainer:hover .overlay {
@@ -168,7 +178,7 @@ a.nav-link  {
 }
   
 .cardText {
-    color: white;
+    color: $theme-light;
     width: 90%;
     position: absolute;
     top: 50%;
@@ -177,6 +187,7 @@ a.nav-link  {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'SecondaryFonts';
     a {
         color: $theme-light;
         display: inline-flex;
@@ -199,6 +210,9 @@ a.nav-link  {
     color: $theme-light;
     h3 {
         text-align: center;
+    } 
+    p.description {
+        padding: 2% 4% 2% 4%;
     }
 }
 
@@ -219,7 +233,11 @@ ul.timeline:before {
 ul.timeline > li {
     margin: 20px 0;
     padding-left: 20px;
-    text-align: left;
+    text-align: left; 
+    font-family: 'SecondaryFonts';
+    h4 {
+        font-weight: 800;
+    }
     a {
         color: $theme-light;
         display: inline-flex;
@@ -232,6 +250,9 @@ ul.timeline > li {
         font-style: italic;
         color: $theme-darker;
         width: 100%;
+    }
+    p{
+        font-size: 0.9rem;
     }
 }
 ul.timeline > li:before {
@@ -253,5 +274,6 @@ ul.timeline > li:before {
 .sectionHeadingLight {
     padding:2%;
 }
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
