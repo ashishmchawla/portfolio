@@ -27,6 +27,12 @@
       <section id="journey">
         <?php include('journey.php'); ?>
       </section>
+      <!-- <section id="tech">
+        <?php //include('tech.php'); ?>
+      </section>
+      <section id="blog">
+        <?php //include('blog.php'); ?>
+      </section> -->
     </div>  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

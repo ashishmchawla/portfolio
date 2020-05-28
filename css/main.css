@@ -126,62 +126,27 @@ a.nav-link a.nav-link :hover {
   color: #3aafa9;
   padding: 5% 0 5% 0;
   text-align: center;
-}
-
-.cardContainer {
-  position: relative;
-  margin: 0 4% 0 4%;
-  border-radius: 20px;
-}
-
-.cardImage {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 20px;
-  padding: 5% 0 5% 0;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 1s ease;
-  background-color: #2b7a78;
-  border-radius: 20px;
-}
-.overlay h4 {
-  font-family: "CustomFonts";
-}
-
-.cardContainer:hover .overlay {
-  opacity: 0.9;
-}
-
-.cardText {
-  color: #def2f1;
-  width: 90%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+  color: #2b7a78;
   font-family: "SecondaryFonts";
 }
-.cardText a {
+
+.badge-theme-dark {
   color: #def2f1;
-  display: inline-flex;
+  background-color: #2b7a78;
+  font-size: 14px;
 }
-.cardText a:hover {
-  color: #17252a;
-  text-decoration: none;
+
+.port-description {
+  padding-top: 5%;
+  padding-left: 2%;
+  text-align: left;
+}
+.port-description h5 {
+  padding-top: 5%;
+}
+
+.port-divider {
+  border: 1px solid #2b7a78;
 }
 
 @media screen and (max-width: 768px) {
@@ -263,6 +228,7 @@ ul.timeline > li:before {
 
 .sectionHeadingLight {
   padding: 2%;
+  font-family: "CustomFonts";
 }
 
 /*!
@@ -10174,6 +10140,18 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.btn-themed-light {
+  color: #2b7a78;
+  background-color: #def2f1;
+  border-radius: 30px;
+  padding: 12px 30px;
+  border: 1px solid #2b7a78;
+}
+
+.btn-themed-light:hover {
+  background-color: #2b7a78;
+  color: #def2f1;
 }
 
 /*# sourceMappingURL=main.css.map */

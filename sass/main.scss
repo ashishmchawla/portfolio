@@ -140,63 +140,28 @@ a.nav-link  {
     color: $theme-primary;
     padding: 5% 0 5% 0;
     text-align: center;
+    color: $theme-dark;
+    font-family: 'SecondaryFonts';
 }
 
-.cardContainer {
-    position: relative;
-    margin: 0 4% 0 4%;
-    border-radius: 20px;
-}
-  
-.cardImage {
-    display: block;
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-    padding: 5% 0 5% 0;
-}
-  
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 1s ease;
-    background-color: $theme-dark;
-    border-radius: 20px;
-    h4 {
-        font-family: 'CustomFonts';
-    }
-}
-  
-.cardContainer:hover .overlay {
-    opacity: 0.9;
-}
-  
-.cardText {
+.badge-theme-dark {
     color: $theme-light;
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'SecondaryFonts';
-    a {
-        color: $theme-light;
-        display: inline-flex;
-    }
-    a:hover{ 
-        color: $theme-darker;
-        text-decoration: none;
+    background-color: $theme-dark;
+    font-size: 14px;
+}
+.port-description {
+    padding-top: 5%;
+    padding-left: 2%;
+    text-align: left;
+    h5 {
+        padding-top: 5%;
     }
 }
+
+.port-divider {
+    border: 1px solid $theme-dark;
+}
+
 @media screen and (max-width: 768px)  {
     #mainContent, #about, #portfolio {
         padding-top: 30%;
@@ -273,7 +238,21 @@ ul.timeline > li:before {
 }
 .sectionHeadingLight {
     padding:2%;
+    font-family: 'CustomFonts';
 }
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.btn-themed-light {
+    color: $theme-dark;
+    background-color: $theme-light;
+    border-radius: 30px;
+    padding: 12px 30px;
+    border: 1px solid $theme-dark;
+}
+.btn-themed-light:hover{ 
+    background-color: $theme-dark;
+    color: $theme-light;    
+}
