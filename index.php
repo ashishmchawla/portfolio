@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/main.css">
-    <!-- <script src="https://kit.fontawesome.com/bb027a9024.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <?php include('meta-data.php'); ?>
     <title> Ashish Chawla | Full Stack Web Developer </title>

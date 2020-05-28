@@ -149,6 +149,11 @@ a.nav-link a.nav-link :hover {
   border: 1px solid #2b7a78;
 }
 
+.icon-list i {
+  font-size: 60px;
+  padding: 0px 2% 0 0;
+}
+
 @media screen and (max-width: 768px) {
   #mainContent, #about, #portfolio {
     padding-top: 30%;

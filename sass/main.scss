@@ -161,6 +161,10 @@ a.nav-link  {
 .port-divider {
     border: 1px solid $theme-dark;
 }
+.icon-list i {
+    font-size: 60px;
+    padding: 0px 2% 0 0;
+}
 
 @media screen and (max-width: 768px)  {
     #mainContent, #about, #portfolio {
