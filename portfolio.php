@@ -29,4 +29,16 @@
         </div>
     </div>
     <hr class="port-divider">
+    <div class="row">
+        <div class="col-md-6">
+            <img src="images/ppt.png" class="img-fluid" style="max-height:400px">
+        </div>
+        <div class="col-md-6">
+            <div class="port-description">
+                <h3> Pen Paper Thoughts</h3><span class="badge badge-theme-dark"> June, 2015</span> 
+                <h5> Pen paper and thoughts had quiet a few writers and used to arrange contests every now and then.</h5>
+                <br>
+            </div>
+        </div>
+    </div>
 </div>
