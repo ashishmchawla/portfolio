@@ -7,6 +7,51 @@
         </div> 
         <!-- <div class="col-md-1"></div> -->
     </div>
+    <br><br>
+    <h3> Tools, Stack, and other things I use...</h3>       
+    <br>
+    <div id="toolSection">
+        <div class='tools'>
+            <i class="devicon-apple-original"></i>
+            <h5> Mac OS </h5>
+        </div>
+        <div class="tools">
+            <i class="devicon-ubuntu-plain"></i>
+            <h5>Ubuntu</h5>
+        </div>
+        <div class='tools'>
+            <i class="devicon-nginx-original"></i>
+            <br>
+            <h5> Nginx </h5>
+        </div>
+        <div class='tools'>
+            <i class="devicon-php-plain"></i>
+            <br>
+            <h5> PHP </h5>
+        </div>
+        <div class='tools'>
+            <i class="devicon-laravel-plain"></i>
+            <br>
+            <h5> Laravel </h5>
+        </div>
+        <div class='tools'>
+            <i class="devicon-javascript-plain"></i>
+            <br>
+            <h5> JavaScript </h5>
+        </div>
+        <div class='tools'>
+            <i class="devicon-bootstrap-plain"></i>
+            <br>
+            <h5> Bootstrap </h5>
+        </div>
+        <div class='tools'>
+            <i class="devicon-github-plain"></i>
+            <br>
+            <h5> Github </h5>
+        </div>
+      
+        
+    </div>
 </div>
 <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
@@ -44,7 +89,7 @@ function drawBasic() {
                 {v: 5, f: 'Jedi'},
             ],
             textStyle: {
-                fontName: 'CustomFonts',
+                // fontName: 'CustomFonts',
                 fontSize: 14,
             },
         },
@@ -53,7 +98,7 @@ function drawBasic() {
             slantedText: true,
             slantedTextAngle: 45,
             textStyle: {
-                fontName: 'CustomFonts'
+                // fontName: 'CustomFonts'
             },
         },
         lineWidth: 4,

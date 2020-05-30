@@ -187,6 +187,21 @@ a.nav-link a.nav-link :hover {
   text-decoration: none;
 }
 
+#toolSection {
+  display: inline-flex;
+}
+
+.tools {
+  text-align: center;
+  margin: 6%;
+}
+.tools i {
+  font-size: 70px;
+}
+.tools h5 {
+  margin-top: 10%;
+}
+
 #footer {
   text-align: center;
   padding-bottom: 10px;

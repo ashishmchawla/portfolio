@@ -195,6 +195,20 @@ a.nav-link  {
         text-decoration: none;
     }
 }
+#toolSection {
+    display: inline-flex;
+}
+
+.tools {
+    text-align: center;
+    margin: 6%;
+    i {
+        font-size: 70px;
+    }
+    h5 {
+        margin-top: 10%;
+    }
+}
 
 #footer {
     text-align: center;
