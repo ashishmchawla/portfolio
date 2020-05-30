@@ -176,10 +176,12 @@ a.nav-link  {
     }
 }
 
-#journey, #blog {
+#journey, #blog, #footer {
     padding: 5% 0 5% 0;
     background-color: $theme-dark;
     color: $theme-light;
+}
+#journey, #blog {
     h3 {
         text-align: center;
     } 
@@ -188,6 +190,20 @@ a.nav-link  {
     }
     a {
         color: $theme-darker;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 10px;
+    i {
+        margin-right: 4%;
+    }
+    a {
+        color: $theme-light;
     }
     a:hover{
         text-decoration: none;
@@ -285,4 +301,5 @@ ul.timeline > li:before {
 .btn-themed-dark:hover{ 
     color: $theme-dark;
     background-color: $theme-light;    
+    border: 1px solid $theme-dark;
 }

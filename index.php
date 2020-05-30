@@ -13,6 +13,8 @@
     <title> Ashish Chawla | Full Stack Web Developer </title>
     <!--Chart -->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
+    <script src="https://kit.fontawesome.com/bb027a9024.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
   </head>
   <body>
     <?php include('./sidebar.php'); ?>
@@ -38,13 +40,20 @@
       <section id="contact">
         <?php include('contact.php'); ?>
       </section> 
-      <footer>
-        
-      </footer>
+      <section id="footer" class="sectionHeadingDark">
+         <div class="social-links">
+            <a href="https://github.com/ashishmchawla"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/ashishmchawla"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/ashishmchawla"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/ashishmchawla"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/ashishmchawla/"><i class="fa fa-linkedin fa-2x"></i></a>
+            <a href="mailto:hey@ashishchawla.tech"><i class="fa fa-envelope fa-2x"></i></a>
+         </div>
+         <br>
+         <h5> &copy; 2020 | Crafted by Ashish Chawla  </h5> 
+      </section>
     </div>  
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>

@@ -168,11 +168,12 @@ a.nav-link a.nav-link :hover {
     margin-left: 5%;
   }
 }
-#journey, #blog {
+#journey, #blog, #footer {
   padding: 5% 0 5% 0;
   background-color: #2b7a78;
   color: #def2f1;
 }
+
 #journey h3, #blog h3 {
   text-align: center;
 }
@@ -183,6 +184,20 @@ a.nav-link a.nav-link :hover {
   color: #17252a;
 }
 #journey a:hover, #blog a:hover {
+  text-decoration: none;
+}
+
+#footer {
+  text-align: center;
+  padding-bottom: 10px;
+}
+#footer i {
+  margin-right: 4%;
+}
+#footer a {
+  color: #def2f1;
+}
+#footer a:hover {
   text-decoration: none;
 }
 
@@ -10189,6 +10204,7 @@ h3 {
 .btn-themed-dark:hover {
   color: #2b7a78;
   background-color: #def2f1;
+  border: 1px solid #2b7a78;
 }
 
 /*# sourceMappingURL=main.css.map */
