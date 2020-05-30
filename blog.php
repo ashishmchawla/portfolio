@@ -2,7 +2,9 @@
 <div class="container">
     <div class="row">
         <div class="col-md-2">
-            <img src="images/under-construction.png" class="img-fluid">
+            <center>
+                <img src="images/under-construction.png" class="img-fluid">
+            </center>
         </div>
         <div class="col-md-10">
         <h4 class="description">

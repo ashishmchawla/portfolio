@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-md-6" id="contactImage">
             <center>
-                <img src="images/contact.png" class="img-fluid">
+                <img src="images/contact.png" class="img-fluid" style="max-height:200px">
             </center>
         </div>
         <div class="col-md-6">

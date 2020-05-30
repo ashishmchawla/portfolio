@@ -195,18 +195,16 @@ a.nav-link  {
         text-decoration: none;
     }
 }
-#toolSection {
-    display: inline-flex;
-}
+
 
 .tools {
     text-align: center;
-    margin: 6%;
+    margin-top: 2%;
     i {
         font-size: 70px;
     }
     h5 {
-        margin-top: 10%;
+        padding-top: 10%;
     }
 }
 
@@ -316,4 +314,12 @@ ul.timeline > li:before {
     color: $theme-dark;
     background-color: $theme-light;    
     border: 1px solid $theme-dark;
+}
+
+#contactForm {
+    .form-control, .form-control:focus, .form-control:active {
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid $theme-dark;
+    }
 }

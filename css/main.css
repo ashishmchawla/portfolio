@@ -187,19 +187,15 @@ a.nav-link a.nav-link :hover {
   text-decoration: none;
 }
 
-#toolSection {
-  display: inline-flex;
-}
-
 .tools {
   text-align: center;
-  margin: 6%;
+  margin-top: 2%;
 }
 .tools i {
   font-size: 70px;
 }
 .tools h5 {
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 #footer {
@@ -10220,6 +10216,12 @@ h3 {
   color: #2b7a78;
   background-color: #def2f1;
   border: 1px solid #2b7a78;
+}
+
+#contactForm .form-control, #contactForm .form-control:focus, #contactForm .form-control:active {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #2b7a78;
 }
 
 /*# sourceMappingURL=main.css.map */

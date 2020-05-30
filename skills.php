@@ -10,48 +10,88 @@
     <br><br>
     <h3> Tools, Stack, and other things I use...</h3>       
     <br>
-    <div id="toolSection">
-        <div class='tools'>
+    <div class="row" id="toolSection">
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-apple-original"></i>
             <h5> Mac OS </h5>
         </div>
-        <div class="tools">
+        <div class="tools col-6 col-md-2">
             <i class="devicon-ubuntu-plain"></i>
             <h5>Ubuntu</h5>
         </div>
-        <div class='tools'>
+        <div class="tools col-6 col-md-2">
+            <i class="devicon-docker-plain"></i>
+            <h5>Docker</h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-nginx-original"></i>
             <br>
             <h5> Nginx </h5>
         </div>
-        <div class='tools'>
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-mysql-plain"></i>
+            <br>
+            <h5> MySQL </h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-mongodb-plain"></i>
+            <br>
+            <h5> MongoDB </h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-php-plain"></i>
             <br>
             <h5> PHP </h5>
         </div>
-        <div class='tools'>
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-laravel-plain"></i>
             <br>
             <h5> Laravel </h5>
         </div>
-        <div class='tools'>
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-nodejs-plain"></i>
+            <br>
+            <h5> Node JS </h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-express-original"></i>
+            <br>
+            <h5> Express </h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-javascript-plain"></i>
             <br>
             <h5> JavaScript </h5>
         </div>
-        <div class='tools'>
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-bootstrap-plain"></i>
             <br>
             <h5> Bootstrap </h5>
         </div>
-        <div class='tools'>
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-react-original"></i>
+            <br>
+            <h5> React JS </h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-sass-original"></i>
+            <br>
+            <h5> Sass </h5>
+        </div>
+        <div class='tools col-6 col-md-2'>
             <i class="devicon-github-plain"></i>
             <br>
             <h5> Github </h5>
         </div>
-      
-        
+        <div class='tools col-6 col-md-2'>
+            <i class="devicon-slack-plain"></i>
+            <br>
+            <h5> Slack </h5>
+        </div>
     </div>
+    <br>
+    <h5>and many more depending on needs of project...</h5>
+    <br> 
 </div>
 <script>
 google.charts.load('current', {packages: ['corechart', 'bar']});
@@ -68,6 +108,7 @@ function drawBasic() {
          ['PHP / Laravel', 4.7, 'color: #3aafa9' ],
          ['MySQL', 4, 'color: #2b7a78' ],
          ['MongoDB', 2, 'color: #3aafa9' ],
+         ['NodeJS / Express', 3.8, 'color: #2b7a78' ],
          
     ]);
 
