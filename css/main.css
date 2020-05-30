@@ -6,11 +6,11 @@ html, body {
 
 @font-face {
   font-family: "CustomFonts";
-  src: url("/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf");
+  src: url("/fonts/Neo/neo.otf");
 }
 @font-face {
   font-family: "SecondaryFonts";
-  src: url("/fonts//Nunito/Nunito-Regular.ttf");
+  src: url("/fonts/Nunito/Nunito-SemiBold.ttf");
 }
 .bg-themeDark {
   background-color: #17252a;
@@ -98,6 +98,10 @@ html, body {
   font-size: 1.25rem;
   font-family: "SecondaryFonts";
 }
+#about .highlight {
+  font-style: italic;
+}
+
 a.nav-link {
   color: #def2f1 !important;
   font-family: "CustomFonts";
@@ -159,17 +163,27 @@ a.nav-link a.nav-link :hover {
     padding-top: 30%;
     z-index: 2;
   }
+
+  #chart_div {
+    margin-left: 5%;
+  }
 }
-#journey {
+#journey, #blog {
   padding: 5% 0 5% 0;
   background-color: #2b7a78;
   color: #def2f1;
 }
-#journey h3 {
+#journey h3, #blog h3 {
   text-align: center;
 }
-#journey p.description {
+#journey .description, #blog .description {
   padding: 2% 4% 2% 4%;
+}
+#journey a, #blog a {
+  color: #17252a;
+}
+#journey a:hover, #blog a:hover {
+  text-decoration: none;
 }
 
 ul.timeline {
@@ -234,6 +248,11 @@ ul.timeline > li:before {
 .sectionHeadingLight {
   padding: 2%;
   font-family: "CustomFonts";
+  text-align: center;
+}
+
+#skills, #contact {
+  padding: 5% 0 5% 0;
 }
 
 /*!
@@ -10157,6 +10176,19 @@ h3 {
 .btn-themed-light:hover {
   background-color: #2b7a78;
   color: #def2f1;
+}
+
+.btn-themed-dark {
+  background-color: #2b7a78;
+  color: #def2f1;
+  border-radius: 30px;
+  padding: 12px 30px;
+  border: 1px solid #def2f1;
+}
+
+.btn-themed-dark:hover {
+  color: #2b7a78;
+  background-color: #def2f1;
 }
 
 /*# sourceMappingURL=main.css.map */

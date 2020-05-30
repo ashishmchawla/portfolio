@@ -20,7 +20,7 @@
         <a class="nav-link" href="#journey">Journey</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#tech">Tech Stack</a>
+        <a class="nav-link" href="#skills">Skills</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#blog">Blog</a>
@@ -44,7 +44,7 @@
         <a href="#about">About</a>
         <a href="#portfolio">Projects</a>
         <a href="#journey">Journey</a>
-        <a href="#tech">Tech Stack</a>
+        <a href="#skills">Skills</a>
         <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>
     </div>

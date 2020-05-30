@@ -12,12 +12,12 @@ html, body {
 
 @font-face{
     font-family: 'CustomFonts';
-    src: url('/fonts/Roboto_Slab/static/RobotoSlab-Medium.ttf');
+    src: url('/fonts/Neo/neo.otf');
 }
 
 @font-face {
     font-family: 'SecondaryFonts';
-    src: url('/fonts//Nunito/Nunito-Regular.ttf');
+    src: url('/fonts/Nunito/Nunito-SemiBold.ttf');
 }
 
 .bg-themeDark{
@@ -107,7 +107,7 @@ html, body {
     }
     .highlight {
         // border-bottom: 4px solid $theme-darker;
-        // font-style: italic;
+        font-style: italic;
     }
 }
 
@@ -171,17 +171,26 @@ a.nav-link  {
         padding-top: 30%;
         z-index: 2;
     }
+    #chart_div {
+        margin-left: 5%;
+    }
 }
 
-#journey {
+#journey, #blog {
     padding: 5% 0 5% 0;
     background-color: $theme-dark;
     color: $theme-light;
     h3 {
         text-align: center;
     } 
-    p.description {
+    .description {
         padding: 2% 4% 2% 4%;
+    }
+    a {
+        color: $theme-darker;
+    }
+    a:hover{
+        text-decoration: none;
     }
 }
 
@@ -243,8 +252,12 @@ ul.timeline > li:before {
 .sectionHeadingLight {
     padding:2%;
     font-family: 'CustomFonts';
+    text-align: center;
 }
 
+#skills, #contact{
+    padding: 5% 0 5% 0;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -259,4 +272,17 @@ ul.timeline > li:before {
 .btn-themed-light:hover{ 
     background-color: $theme-dark;
     color: $theme-light;    
+}
+
+
+.btn-themed-dark {
+    background-color: $theme-dark;
+    color: $theme-light;
+    border-radius: 30px;
+    padding: 12px 30px;
+    border: 1px solid $theme-light;
+}
+.btn-themed-dark:hover{ 
+    color: $theme-dark;
+    background-color: $theme-light;    
 }

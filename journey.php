@@ -1,6 +1,5 @@
 <h3 class="sectionHeadingDark">Journey so far...</h3>
-<br>
-<p class="description">Life is a journey and has many asspects to it. Becoming a full-stack developer is a great aspect of my life and here's how that journey has been so far...  </p> 
+<h4 class="description">Life is a journey and has many asspects to it. Becoming a full-stack developer is a great aspect of my life and here's how that journey has been so far...  </h4> 
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
@@ -29,9 +28,9 @@
                 <li>
                     <h4>ReportCard Technologies FZ LLC, Dubai </h4>
                     <h5 class="position">Full Stack Developer</h5>
-					<h6>Oct, 2017 - Current </h6> 
+					<h6>Oct, 2017 - On going... </h6> 
                     <h5>ReportCard is a platform for all the teachers and institutions facilitating them the ease of management and helping them stay organized, teach online and focus on teaching more. I've been the part of core product development team since the start of product and this journey has taught me a lot about many things. It's been a remarkable product developement experience and is still going on with same energy as first day... </h5>
-                    <a href="https://reportcard.ae" target='_blank'> <i class="material-icons">language</i>&nbsp; Reportcard | Student & Class Management Software &amp; Apps </a> 
+                    <a href="https://reportcard.ae" target='_blank'> <i class="material-icons">link</i>&nbsp; Reportcard | Student & Class Management Software &amp; Apps </a> 
                 </li>
                
                 <li>

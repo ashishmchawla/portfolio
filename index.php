@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <?php include('meta-data.php'); ?>
     <title> Ashish Chawla | Full Stack Web Developer </title>
+    <!--Chart -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script> 
   </head>
   <body>
     <?php include('./sidebar.php'); ?>
@@ -27,12 +29,18 @@
       <section id="journey">
         <?php include('journey.php'); ?>
       </section>
-      <!-- <section id="tech">
-        <?php //include('tech.php'); ?>
+      <section id="skills">
+        <?php include('skills.php'); ?>
       </section>
       <section id="blog">
-        <?php //include('blog.php'); ?>
-      </section> -->
+        <?php include('blog.php'); ?>
+      </section> 
+      <section id="contact">
+        <?php include('contact.php'); ?>
+      </section> 
+      <footer>
+        
+      </footer>
     </div>  
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
