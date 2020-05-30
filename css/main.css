@@ -49,12 +49,12 @@ html, body {
 }
 .linkList a:hover {
   text-decoration: none;
-  color: #def2f1;
+  color: white;
 }
 
 #mainContent {
   color: #3aafa9;
-  background-color: #def2f1;
+  background-color: white;
   font-family: "CustomFonts";
   padding-left: 0px;
 }
@@ -90,7 +90,7 @@ html, body {
   padding-bottom: 5%;
   text-align: center;
   background-color: #2b7a78;
-  color: #def2f1;
+  color: white;
   font-size: 1.5rem;
 }
 #about p {
@@ -103,12 +103,12 @@ html, body {
 }
 
 a.nav-link {
-  color: #def2f1 !important;
+  color: white !important;
   font-family: "CustomFonts";
 }
 a.nav-link a.nav-link :hover {
   text-decoration: none;
-  color: #def2f1;
+  color: white;
 }
 
 .themeLinks {
@@ -126,7 +126,7 @@ a.nav-link a.nav-link :hover {
 }
 
 #portfolio {
-  background-color: #def2f1;
+  background-color: white;
   color: #3aafa9;
   padding: 5% 0 5% 0;
   text-align: center;
@@ -135,7 +135,7 @@ a.nav-link a.nav-link :hover {
 }
 
 .badge-theme-dark {
-  color: #def2f1;
+  color: white;
   background-color: #2b7a78;
   font-size: 14px;
 }
@@ -159,7 +159,7 @@ a.nav-link a.nav-link :hover {
 }
 
 @media screen and (max-width: 768px) {
-  #mainContent, #about, #portfolio {
+  #mainContent, #about, #portfolio, #journey, #skills, #blog, #contact {
     padding-top: 30%;
     z-index: 2;
   }
@@ -169,9 +169,10 @@ a.nav-link a.nav-link :hover {
   }
 }
 #journey, #blog, #footer {
+  padding-top: 5%;
   padding: 5% 0 5% 0;
   background-color: #2b7a78;
-  color: #def2f1;
+  color: white;
 }
 
 #journey h3, #blog h3 {
@@ -206,7 +207,7 @@ a.nav-link a.nav-link :hover {
   margin-right: 4%;
 }
 #footer a {
-  color: #def2f1;
+  color: white;
 }
 #footer a:hover {
   text-decoration: none;
@@ -219,7 +220,7 @@ ul.timeline {
 
 ul.timeline:before {
   content: " ";
-  background: #def2f1;
+  background: white;
   display: inline-block;
   position: absolute;
   left: 29px;
@@ -238,7 +239,7 @@ ul.timeline > li h4 {
   font-weight: 800;
 }
 ul.timeline > li a {
-  color: #def2f1;
+  color: white;
   display: inline-flex;
 }
 ul.timeline > li a:hover {
@@ -256,11 +257,11 @@ ul.timeline > li p {
 
 ul.timeline > li:before {
   content: " ";
-  background: #def2f1;
+  background: white;
   display: inline-block;
   position: absolute;
   border-radius: 50%;
-  border: 3px solid #def2f1;
+  border: 3px solid white;
   left: 20px;
   width: 20px;
   height: 20px;
@@ -10193,7 +10194,7 @@ h3 {
 }
 .btn-themed-light {
   color: #2b7a78;
-  background-color: #def2f1;
+  background-color: white;
   border-radius: 30px;
   padding: 12px 30px;
   border: 1px solid #2b7a78;
@@ -10201,20 +10202,20 @@ h3 {
 
 .btn-themed-light:hover {
   background-color: #2b7a78;
-  color: #def2f1;
+  color: white;
 }
 
 .btn-themed-dark {
   background-color: #2b7a78;
-  color: #def2f1;
+  color: white;
   border-radius: 30px;
   padding: 12px 30px;
-  border: 1px solid #def2f1;
+  border: 1px solid white;
 }
 
 .btn-themed-dark:hover {
   color: #2b7a78;
-  background-color: #def2f1;
+  background-color: white;
   border: 1px solid #2b7a78;
 }
 
