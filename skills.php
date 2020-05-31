@@ -1,5 +1,5 @@
 <h2 class="sectionHeadingLight"> My Skills </h2>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <!-- <div class="col-md-1"></div> -->
         <div class="col-md-12">
@@ -8,7 +8,7 @@
         <!-- <div class="col-md-1"></div> -->
     </div>
     <br><br>
-    <h3> Tools, Stack, and other things I use...</h3>       
+    <h3 class="skillText"> Tools, Stack, and other things I use...</h3>       
     <br>
     <div class="row" id="toolSection">
         <div class='tools col-6 col-md-2'>
@@ -90,7 +90,7 @@
         </div>
     </div>
     <br>
-    <h5>and many more depending on needs of project...</h5>
+    <h5 class="skillText">and many more depending on needs of project...</h5>
     <br> 
 </div>
 <script>

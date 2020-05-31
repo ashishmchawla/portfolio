@@ -42,15 +42,14 @@
       </section> 
       <section id="footer" class="sectionHeadingDark">
          <div class="social-links">
-            <a href="https://github.com/ashishmchawla"><i class="fa fa-github fa-2x"></i></a>
-            <a href="https://twitter.com/ashishmchawla"><i class="fa fa-twitter fa-2x"></i></a>
-            <a href="https://www.instagram.com/ashishmchawla"><i class="fa fa-instagram fa-2x"></i></a>
-            <a href="https://www.facebook.com/ashishmchawla"><i class="fa fa-facebook fa-2x"></i></a>
-            <a href="https://www.linkedin.com/in/ashishmchawla/"><i class="fa fa-linkedin fa-2x"></i></a>
-            <a href="mailto:hey@ashishchawla.tech"><i class="fa fa-envelope fa-2x"></i></a>
+            <a href="https://github.com/ashishmchawla" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://twitter.com/ashishmchawla" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+            <a href="https://www.instagram.com/ashishmchawla" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.facebook.com/ashishmchawla" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/ashishmchawla/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
          </div>
          <br>
-         <h5> &copy; 2020 | Crafted by Ashish Chawla  </h5> 
+         <h6> &copy; 2020 | Crafted by Ashish Chawla  </h6> 
       </section>
     </div>  
 

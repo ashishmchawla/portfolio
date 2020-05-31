@@ -6,16 +6,19 @@
             <center>
                 <img src="images/contact.png" class="img-fluid" style="max-height:200px">
             </center>
+            <br>
         </div>
         <div class="col-md-6">
             <form id="contactForm">
                 <div class="form-group">
                     <label for="name">Name *</label>
-                    <input type="text" name="name" class="form-control" placeholder="Enter your name" id="name"> 
+                    <input type="text" name="name" required class="form-control" placeholder="Enter your name" id="name"> 
+                    <span id="nameBlank" style="display:none;">Please enter your name</span>
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" class="form-control" placeholder="Enter your Email" id="email"> 
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" required class="form-control" placeholder="Enter your Email" id="email"> 
+                    <span id="emailBlank" style="display:none;">Please enter your email</span>
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone</label>
@@ -30,6 +33,9 @@
                     <button id="submitForm" class="btn btn-themed-dark">Reach Out</button>
                 </center>
             </form>
+            <div id="received" style="display:none;padding:10%">
+                <h4>Your messaged has been received, I'll get in touch with you shortly!</h4>
+            </div>
         </div>
     </div>
 </div>
@@ -37,7 +43,39 @@
 <script>
     $(document).on('click', '#submitForm', function(e){
         e.preventDefault();
-        var data = $('#contactForm').serialize();
-        console.log(data);
+        var errors = 0; 
+        var dataLog = $('#contactForm').serialize();
+
+        if( $('#name').val() == '' || $('#name').val() == null ) {
+            $('#name').css('border-bottom-color:red');
+            $('#nameBlank').css('display', 'block');
+            errors++;
+        } else {
+            $('#name').css('border-bottom-color:#2b7a78');
+            $('#nameBlank').css('display', 'none');
+        }
+
+        if( $('#email').val() == '' || $('#email').val() == null ) {
+            $('#email').css('border-bottom-color:red');
+            $('#emailBlank').css('display', 'block');
+            errors++;
+        } else {
+            $('#email').css('border-bottom-color:#2b7a78');
+            $('#emailBlank').css('display', 'none');
+           
+        }
+        if( errors == 0 ) {
+            $.ajax({
+                url: './enquiry.php',
+                data: dataLog, 
+                type: 'POST'
+            }).done(function(response) {
+                console.log(response);
+                $("#contactForm").css('display','none');
+                $("#received").css('display','block');
+            
+            });
+        }
+
     });
 </script>
