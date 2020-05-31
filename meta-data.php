@@ -1,11 +1,11 @@
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="I'm Ashish Chawla. I craft websites and applications. I am a Full Stack Web Developer from Mumbai. I love to create web-based solutions ranging from anything between a landing page to a feature-rich complete application.">
+    <meta name="keywords" content="Ashish Chawla, full stack, web, web developer, web developer in Mumbai,  full stack web developer, ashish chawka develeoper, ashish, chawla, ashish chawla full stack web developer, ashish chawla mumbai">
     <meta property="fb:app_id" content="534218220259246" />
     <meta property="og:url" content="https://ashishchawla.tech/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Ashish Chawla | Full Stack Web Developer" />
-    <meta property="og:description" content=" I'm Ashish Chawla. I craft websites and applications. I am a Full Stack Web Developer from Mumbai. I love to create web-based solutions ranging from anything between a landing page to a feature-rich complete application." />
+    <meta property="og:description" content="I'm Ashish Chawla. I craft websites and applications. I am a Full Stack Web Developer from Mumbai. I love to create web-based solutions ranging from anything between a landing page to a feature-rich complete application." />
     <meta property="og:image" content="favicon/apple-icon.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
