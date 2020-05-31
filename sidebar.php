@@ -16,9 +16,9 @@
       <li class="nav-item">
         <a class="nav-link" href="#portfolio">Projects </a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="#journey">Journey</a>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="#skills">Skills</a>
       </li>
@@ -43,7 +43,7 @@
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#portfolio">Projects</a>
-        <a href="#journey">Journey</a>
+        <!-- <a href="#journey">Journey</a> -->
         <a href="#skills">Skills</a>
         <a href="#blog">Blog</a>
         <a href="#contact">Contact</a>

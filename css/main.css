@@ -157,7 +157,7 @@ a.nav-link a.nav-link :hover {
   padding: 0px 2% 0 0;
 }
 
-#journey, #blog, #footer {
+#skills, #contact {
   padding-top: 5%;
   padding: 5% 0 5% 0;
   background-color: #2b7a78;
@@ -169,6 +169,7 @@ a.nav-link a.nav-link :hover {
 }
 #journey .description, #blog .description {
   padding: 2% 4% 2% 4%;
+  color: #2b7a78;
 }
 #journey a, #blog a {
   color: #17252a;
@@ -195,12 +196,13 @@ a.nav-link a.nav-link :hover {
 #footer {
   text-align: center;
   padding-bottom: 10px;
+  color: #2b7a78;
 }
 #footer i {
   margin-right: 4%;
 }
 #footer a {
-  color: white;
+  color: #2b7a78;
 }
 #footer a:hover {
   text-decoration: none;
@@ -10225,8 +10227,22 @@ h3 {
 #contactForm .form-control, #contactForm .form-control:focus, #contactForm .form-control:active {
   border: none;
   background-color: transparent;
-  border-bottom: 1px solid #2b7a78;
+  border-bottom: 1px solid white;
   box-shadow: none;
+}
+#contactForm ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+#contactForm :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+#contactForm ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */

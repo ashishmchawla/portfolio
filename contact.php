@@ -1,15 +1,9 @@
 <h2 class="sectionHeadingLight"> Reach Out </h2>
 <br>
 <div class="container">
-    <div class="row">
-        <div class="col-md-6" id="contactImage">
-            <center>
-                <img src="images/contact.png" class="img-fluid" style="max-height:200px">
-            </center>
-            <br>
-        </div>
-        <div class="col-md-6">
-            <form id="contactForm">
+    <form id="contactForm">
+        <div class="row">
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="text" name="name" required class="form-control" placeholder="Enter your name" id="name"> 
@@ -20,6 +14,8 @@
                     <input type="email" name="email" required class="form-control" placeholder="Enter your Email" id="email"> 
                     <span id="emailBlank" style="display:none;">Please enter your email</span>
                 </div>
+            </div>
+            <div class="col-md-6">
                 <div class="form-group">
                     <label for="phone">Phone</label>
                     <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" id="phone"> 
@@ -29,14 +25,16 @@
                     <textarea id="msg" name="message" class="form-control" placeholder="Type in your message..."></textarea>
                 </div>
                 <br>
+            </div>
+            <div class="col-md-12">
                 <center>
-                    <button id="submitForm" class="btn btn-themed-dark">Reach Out</button>
+                    <button id="submitForm"  rows="1" class="btn btn-themed-dark">Reach Out</button>
                 </center>
-            </form>
-            <div id="received" style="display:none;padding:10%">
-                <h4>Your messaged has been received, I'll get in touch with you shortly!</h4>
             </div>
         </div>
+    </form>
+    <div id="received" style="display:none;padding:10%">
+        <h4>Your messaged has been received, I'll get in touch with you shortly!</h4>
     </div>
 </div>
 

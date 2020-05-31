@@ -28,9 +28,6 @@
       <section id="portfolio">
        <?php include('portfolio.php'); ?>
       </section>
-      <section id="journey">
-        <?php include('journey.php'); ?>
-      </section>
       <section id="skills">
         <?php include('skills.php'); ?>
       </section>
