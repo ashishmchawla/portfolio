@@ -106,7 +106,7 @@ function drawBasic() {
          ['React', 2.8, 'color: #3aafa9' ],
          ['REST APIs', 5, 'color: #2b7a78' ],
          ['PHP / Laravel', 4.7, 'color: #3aafa9' ],
-         ['MySQL', 4, 'color: #2b7a78' ],
+         ['MySQL', 5, 'color: #2b7a78' ],
          ['MongoDB', 2, 'color: #3aafa9' ],
          ['NodeJS / Express', 3.8, 'color: #2b7a78' ],
          
