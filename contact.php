@@ -3,26 +3,31 @@
 <div class="container">
     <form id="contactForm">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="text" name="name" required class="form-control" placeholder="Enter your name" id="name"> 
                     <span id="nameBlank" style="display:none;">Please enter your name</span>
                 </div>
+            </div>    
+            <div class="col-md-4">
                 <div class="form-group">
                     <label for="email">Email *</label>
                     <input type="email" name="email" required class="form-control" placeholder="Enter your Email" id="email"> 
                     <span id="emailBlank" style="display:none;">Please enter your email</span>
                 </div>
-            </div>
-            <div class="col-md-6">
+            </div>    
+            <div class="col-md-4">
                 <div class="form-group">
                     <label for="phone">Phone</label>
                     <input type="tel" name="phone" class="form-control" placeholder="Enter your phone number" id="phone"> 
                 </div>
+            </div>
+            <br>
+            <div class="col-md-12">
                 <div class="form-group">
                     <label for="msg">Messsage</label>
-                    <textarea id="msg" name="message" class="form-control" placeholder="Type in your message..."></textarea>
+                    <textarea id="msg" name="message" rows="3" class="form-control" placeholder="Type in your message..."></textarea>
                 </div>
                 <br>
             </div>

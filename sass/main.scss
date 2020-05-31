@@ -330,6 +330,9 @@ ul.timeline > li:before {
         border-bottom: 1px solid $theme-light;
         box-shadow: none;
     }
+    label {
+        padding: 0 12px;
+    }
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: $theme-light;
         opacity: 1; /* Firefox */

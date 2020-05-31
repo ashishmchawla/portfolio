@@ -10230,6 +10230,9 @@ h3 {
   border-bottom: 1px solid white;
   box-shadow: none;
 }
+#contactForm label {
+  padding: 0 12px;
+}
 #contactForm ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
