@@ -98,7 +98,7 @@ html, body {
   font-family: "SecondaryFonts";
 }
 #about .highlight {
-  font-style: italic;
+  color: #17252a;
 }
 
 a.nav-link {
