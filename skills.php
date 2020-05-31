@@ -101,14 +101,14 @@ function drawBasic() {
 
     var data = google.visualization.arrayToDataTable([
          ['Element', 'Density', { role: 'style' } ],
+         ['REST APIs', 5, 'color: #2b7a78' ],
          ['HTML / CSS', 4, 'color: #3aafa9' ],
          ['JS / jQuery', 4.5, 'color: #2b7a78' ],
          ['React', 2.8, 'color: #3aafa9' ],
-         ['REST APIs', 5, 'color: #2b7a78' ],
-         ['PHP / Laravel', 4.7, 'color: #3aafa9' ],
-         ['MySQL', 5, 'color: #2b7a78' ],
-         ['MongoDB', 2, 'color: #3aafa9' ],
-         ['NodeJS / Express', 3.8, 'color: #2b7a78' ],
+         ['PHP / Laravel', 4.7, 'color: #2b7a78' ],
+         ['MySQL', 5, 'color: #3aafa9' ],
+         ['MongoDB', 2, 'color: #2b7a78' ],
+         ['NodeJS / Express', 3.8, 'color: #3aafa9' ],
          
     ]);
 
