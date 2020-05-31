@@ -1,0 +1,64 @@
+{
+	"dir": "ltr",
+	"lang": "en",
+	"name": "Ashish Chawla | Full Stack Web Developer",
+	"scope": ".",
+	"display": "standalone",
+	"start_url": "./",
+	"short_name": "Ashish Chawla",
+	"theme_color": "#2b7a78",
+	"author": "Ashish Chawla",
+	"description": "Delivering Freshness at your Doorstep!",
+	"orientation": "any",
+	"background_color": "#2b7a78",
+	"related_applications": [],
+	"prefer_related_applications": false,
+	"icons": [
+		{
+			"src": "https://ashishchawla.tech/images/logo_colored.png",
+			"sizes": "1280x1024"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-57x57.png",
+			"sizes": "57x57"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-144x144.png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-72x72.png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-180x180.png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-152x152.png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-120x120.png",
+			"sizes": "120x120"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/apple-touch-icon-76x76.png",
+			"sizes": "76x76"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/logo_192x192.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/logo_250x250.png",
+			"sizes": "250x250"
+		},
+		{
+			"src": "https://ashishchawla.tech/favicons/logo_300x300.png",
+			"sizes": "300x300"
+		}
+	],
+	"url": "https://ashishchawla.tech",
+	"generated": "true"
+}
